@@ -17,8 +17,25 @@ gem install crystallize
 Usage
 -----
 
+#### Typical usage
+
 ```bash
 $ crystallize my_gem
+Created gem in ./my_gem
+```
+
+#### Settings
+
+The first time you run `crystallize`, it'll prompt you for settings that'll be used in all of your gems:
+
+```bash
+$ crystallize my_gem
+Welcome to Crystallize!
+Please enter some settings for your gems:
+Your name: Tom Benner
+Your email: tombenner@gmail.com
+Your GitHub username: tombenner
+Thanks! Saved your settings in ~/.crystallize.yml
 Created gem in ./my_gem
 ```
 

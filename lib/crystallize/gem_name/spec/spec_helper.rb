@@ -1,4 +1,4 @@
-require 'gem_name'
+require '{{gem_name}}'
 
 RSpec.configure do |config|
   # ## Mock Framework
